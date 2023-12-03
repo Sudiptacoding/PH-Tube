@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube</title>
+    <link rel="shortcut icon" href="image/Logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="font-family: 'Inter', sans-serif;">
+    <header>
+        <nav class="flex items-center px-[60px] justify-between flex-col md:flex-row gap-6 py-[50px]">
+            <div><img class="" src="image/Logo.png" alt=""></div>
+            <div><button onclick="sordData()" id="shortNow" class="btn px-5 py-[10px]">Sort by view</button></div>
+            <div><button id="blog" class="btn bg-[#FF1F3D] px-5 py-[10px] text-white">Blog</button></div>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section id="All_Catagory" class="flex items-center md:gap-6 gap-2 lg:px-4 justify-center">
+            </section>
+            <section id="allCard" class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:px-[60px] p-5 gap-6">
+            </section>
+        </article>
+    </main>
+    <script src="js/style.js"></script>
+</body>
+
+</html>
